@@ -1,0 +1,29 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #131313;
+    margin: 0;
+    padding: 0 2rem;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 2rem;
+}
+
+.arrowIcon {
+    padding: 1rem 0 1rem 0;
+}
