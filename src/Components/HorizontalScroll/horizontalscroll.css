@@ -1,0 +1,22 @@
+.carousel {
+    background-color: #131313;
+    height: 500vh;
+}
+
+.contentContainer {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 3vw;
+    padding: 0 4rem 0 4rem;
+}
